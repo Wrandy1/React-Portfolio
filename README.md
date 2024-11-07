@@ -1,12 +1,14 @@
 # 20 React: React Portfolio
 
-## My task
+## Description
 
-Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
+Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects. This project involves creating a portfolio using React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. The application will be deployed to Netlify.
 
-Your task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies.
+## Table of Contents
 
-You’ll deploy this application to Netlify. Follow the instructions in the Git Guide or consult the [Docs on Netlify](https://vitejs.dev/guide/static-deploy.html#netlify) to create a build that you can deploy.
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Usage](#usage)
 
 ## User Story
 
@@ -45,3 +47,14 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
+
+## Usage
+
+To use this portfolio, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the dependencies using `npm install`.
+4. Start the development server using `npm start`.
+5. Open your browser and go to `http://localhost:3000` to view the portfolio.
+6. Deploy the application to Netlify following the instructions in the [Docs on Netlify](https://vitejs.dev/guide/static-deploy.html#netlify).
