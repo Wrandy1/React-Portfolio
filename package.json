@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "vite preview",
+    "start": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -25,5 +27,15 @@
     "eslint-plugin-react-refresh": "^0.4.12",
     "globals": "^15.9.0",
     "vite": "^5.4.8"
-  }
+  },
+  "services": [
+    {
+      "type": "web",
+      "name": "React-Portfolio",
+      "env": "static",
+      "staticPublishPath": "/dist",
+      "buildCommand": "npm run build",
+      "startCommand": "npm start"
+    }
+  ]
 }
